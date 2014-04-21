@@ -1,4 +1,11 @@
 #coding: utf-8
+'''
+    以 sqlite 为例
+    支持: PostgreSQL, MySQL, Oracle
+        db = Database('postgres', user='', password='', host='', database='')
+        db = Database('mysql', host='', user='', passwd='', db='')
+        db = Database('oracle', 'user/password@dsn')
+'''
 
 import os
 from pony.orm import Database
