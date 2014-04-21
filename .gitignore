@@ -52,3 +52,6 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
+pony_test_env/
+*.sql
+*.bak
